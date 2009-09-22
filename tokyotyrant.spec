@@ -4,12 +4,12 @@
 
 Summary:	Tokyo Tyrant: network interface of Tokyo Cabinet
 Name:		tokyotyrant
-Version:	1.1.33
+Version:	1.1.34
 Release:	%mkrel 1
 Group:		System/Libraries
 License:	LGPL
-URL:		http://tokyocabinet.sourceforge.net/
-Source0:	http://tokyocabinet.sourceforge.net/tyrantpkg/%{name}-%{version}.tar.gz
+URL:		http://1978th.net/tokyotyrant/
+Source0:	http://1978th.net/tokyotyrant/%{name}-%{version}.tar.gz
 Patch0:		tokyotyrant-1.1.33-mdv_conf.diff
 Patch1:		tokyotyrant-1.1.33-sonames.diff
 BuildRequires:	autoconf
