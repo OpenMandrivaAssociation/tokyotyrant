@@ -4,7 +4,7 @@
 
 Summary:	Tokyo Tyrant: network interface of Tokyo Cabinet
 Name:		tokyotyrant
-Version:	1.1.34
+Version:	1.1.37
 Release:	%mkrel 1
 Group:		System/Libraries
 License:	LGPL
