@@ -4,7 +4,7 @@
 
 Summary:	Tokyo Tyrant: network interface of Tokyo Cabinet
 Name:		tokyotyrant
-Version:	1.1.37
+Version:	1.1.39
 Release:	%mkrel 1
 Group:		System/Libraries
 License:	LGPL
@@ -16,7 +16,7 @@ BuildRequires:	autoconf
 BuildRequires:	bzip2-devel
 BuildRequires:	zlib-devel
 BuildRequires:	lua-devel
-BuildRequires:	tokyocabinet-devel >= 1.4.31
+BuildRequires:	tokyocabinet-devel >= 1.4.35
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
