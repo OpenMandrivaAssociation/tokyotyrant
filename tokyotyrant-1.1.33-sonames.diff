@@ -1,0 +1,26 @@
+--- Makefile.in	2009-08-19 18:20:51.000000000 +0200
++++ Makefile.in.oden	2009-08-19 18:32:10.000000000 +0200
+@@ -293,19 +293,19 @@
+ 
+ 
+ ttskelmock.so : ttskelmock.o
+-	$(CC) $(CFLAGS) -shared -o $@ $< $(LDFLAGS) $(LIBS)
++	$(CC) $(CFLAGS) -shared -Wl,-soname=$@ -o $@ $< $(LDFLAGS) $(LIBS)
+ 
+ 
+ ttskeldir.so : ttskeldir.o
+-	$(CC) $(CFLAGS) -shared -o $@ $< $(LDFLAGS) $(LIBS)
++	$(CC) $(CFLAGS) -shared -Wl,-soname=$@ -o $@ $< $(LDFLAGS) $(LIBS)
+ 
+ 
+ ttskelproxy.so : ttskelproxy.o
+-	$(CC) $(CFLAGS) -shared -o $@ $< $(LDFLAGS) $(LIBS)
++	$(CC) $(CFLAGS) -shared -Wl,-soname=$@ -o $@ $< $(LDFLAGS) $(LIBS)
+ 
+ 
+ ttskelnull.so : ttskelnull.o
+-	$(CC) $(CFLAGS) -shared -o $@ $< $(LDFLAGS) $(LIBS)
++	$(CC) $(CFLAGS) -shared -Wl,-soname=$@ -o $@ $< $(LDFLAGS) $(LIBS)
+ 
+ 
+ ttskelmock.bundle : ttskelmock.o
