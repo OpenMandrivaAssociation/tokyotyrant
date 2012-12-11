@@ -131,3 +131,30 @@ rm -rf %{buildroot}
 %{_libdir}/pkgconfig/tokyotyrant.pc
 %{_mandir}/man3/*
 
+
+
+%changelog
+* Thu Oct 28 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.41-1mdv2011.0
++ Revision: 589708
+- 1.1.41
+
+* Sun Feb 14 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.40-1mdv2010.1
++ Revision: 505811
+- 1.1.40
+
+* Sat Dec 19 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.39-1mdv2010.1
++ Revision: 480145
+- 1.1.39
+- 1.1.37
+
+* Tue Sep 22 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.34-1mdv2010.0
++ Revision: 447328
+- 1.1.34
+
+* Wed Aug 19 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.33-1mdv2010.0
++ Revision: 418159
+- import tokyotyrant
+
+
+* Wed Aug 19 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.33-1mdv2009.1
+- initial Mandriva package
