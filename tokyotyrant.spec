@@ -47,7 +47,7 @@ access library for client applications.
 
 %files -n %{libname}
 %doc COPYING ChangeLog README THANKS doc/* ext/*.lua
-%{_libdir}/tokyotyrant.so.%{major}*
+%{_libdir}/libtokyotyrant.so.%{major}*
 %{_libdir}/ttskeldir.so
 %{_libdir}/ttskelmock.so
 %{_libdir}/ttskelnull.so
