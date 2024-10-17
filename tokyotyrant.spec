@@ -8,7 +8,7 @@ Version:	1.1.41
 Release:	3
 License:	LGPLv2.1+
 Group:		System/Libraries
-Url:		http://1978th.net/tokyotyrant/
+Url:		https://1978th.net/tokyotyrant/
 Source0:	http://1978th.net/tokyotyrant/%{name}-%{version}.tar.gz
 Patch0:		tokyotyrant-1.1.33-mdv_conf.diff
 Patch1:		tokyotyrant-1.1.33-sonames.diff
