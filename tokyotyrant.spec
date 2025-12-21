@@ -12,6 +12,11 @@ Url:		https://1978th.net/tokyotyrant/
 Source0:	http://1978th.net/tokyotyrant/%{name}-%{version}.tar.gz
 Patch0:		tokyotyrant-1.1.33-mdv_conf.diff
 Patch1:		tokyotyrant-1.1.33-sonames.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bzip2-devel
 BuildRequires:	lua-devel
 BuildRequires:	pkgconfig(tokyocabinet)
